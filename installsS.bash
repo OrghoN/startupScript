@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #list of ppas
 ppas=( ppa:webupd8team/atom)
 
