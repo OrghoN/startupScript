@@ -1,5 +1,5 @@
 #list of ppas
-ppas=( ppa:webupd8team/atom )
+ppas=( ppa:webupd8team/atom)
 
 echo "add PPA's:"
 #adding PPA's
@@ -11,7 +11,7 @@ done
 apt update
 
 #list of applications
-packages=( atom chromium-browser )
+packages=( atom chromium-browser emacs)
 
 echo "add PPA's:"
 #adding PPA's
