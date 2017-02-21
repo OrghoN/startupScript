@@ -1,0 +1,3 @@
+atom
+chromium-browser
+emacs

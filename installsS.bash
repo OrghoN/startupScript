@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #list of ppas
-ppas=( ppa:webupd8team/atom)
+readarray ppas < ppa.txt
 
 echo "add PPA's:"
 #adding PPA's
@@ -13,7 +13,7 @@ done
 apt update
 
 #list of applications
-packages=( atom chromium-browser emacs)
+readarray packages < softwarePackages.txt
 
 echo "add PPA's:"
 #adding PPA's

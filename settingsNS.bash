@@ -18,7 +18,7 @@ echo "Set emacs as default editor"
 echo 'export EDITOR="emacs -nw"' >> ~/.bashrc
 
 #list of atom packages
-packages=( jsdoc-generator atom-easy-jsdoc latex language-latex atom-hack autocomplete-hack highlight-selected language-hack language-vhdl markdown-scroll-sync minimap-highlight-selected threejs-snippets tidy-markdown todo-show minimap autoclose-html color-picker atom-beautify linter file-icons pretty-json markdown-preview-plus markdown-pdf language-hdl )
+readarray packages < atomPackages.txt
 
 echo "install relevant atom packages"
 #installing atom plugins
